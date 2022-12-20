@@ -7,11 +7,11 @@ Para projetos já no github:
 ```
 Passo 1: git clone https://github.com/CarlosLopes88/Manual_github.git
 
-Passo 3: git add . (. ou o nome do arquivo index.html) para adicionar os arquivos a primeira versão dos arquivos
+Passo 2: git add . (. ou o nome do arquivo index.html) para adicionar os arquivos a primeira versão dos arquivos
 
-Passo 4: git commit . -m "primeiro commit"
+Passo 3: git commit . -m "primeiro commit"
 
-Passo 5: git push
+Passo 4: git push
 
 ```
 
@@ -49,7 +49,7 @@ git branch mostra a branch que eu estou
 
 git merge desenvolvimento quando estiver na branch main o comando trará todas as alterações da desenvolvimento e unirá com a main finaliando o proceso com um git push origin main
 
-git restore --source a0c893b retorna ao estado do versionamento da rash git a0c893b
+git restore --source a0c893b retorna ao estado do versionamento da rash git a0c893b finalizando com um git commit . -m "voltando para o estado do paulo"
 
 ```
 
