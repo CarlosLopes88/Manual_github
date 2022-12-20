@@ -9,9 +9,9 @@ Passo 1: git clone https://github.com/CarlosLopes88/Manual_github.git
 
 Passo 3: git add . (. ou o nome do arquivo index.html) para adicionar os arquivos a primeira versão dos arquivos
 
-Passo 4: git commit . -m "primeiro commit" <--- exemplo
+Passo 4: git commit . -m "primeiro commit"
 
-Passo 5: git push origin main
+Passo 5: git push
 
 ```
 
@@ -39,7 +39,17 @@ git log verificar as alterações no reposotório
 
 git log --oneline verificar as alterações compactadas
 
-git init iniciar o git localmente
+git status verificar status dos commits
+
+git checkout -b desenvolvimento criando uma branch chamada desenvolvimento
+
+git switch desenvolvimento trocar a branch
+
+git branch mostra a branch que eu estou
+
+git merge desenvolvimento quando estiver na branch main o comando trará todas as alterações da desenvolvimento e unirá com a main finaliando o proceso com um git push origin main
+
+git restore --source a0c893b retorna ao estado do versionamento da rash git a0c893b
 
 ```
 
